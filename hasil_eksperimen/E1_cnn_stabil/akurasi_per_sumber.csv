@@ -1,0 +1,17 @@
+kelas,sumber,jumlah_test,akurasi
+cardboard,TrashNet,42,0.9286
+cardboard,RealWaste,9,0.5556
+Food Organics,RealWaste,42,0.5714
+glass,TrashNet,51,0.7647
+glass,RealWaste,9,0.1111
+metal,TrashNet,45,0.6889
+metal,RealWaste,13,0.4615
+Miscellaneous Trash,RealWaste,50,0.3600
+paper,TrashNet,63,0.7937
+paper,RealWaste,7,0.2857
+Plastic,RealWaste,93,0.6882
+Textile Trash,RealWaste,33,0.5152
+trash,TrashNet,15,0.7333
+Vegetation,RealWaste,44,0.7727
+SEMUA,TrashNet,216,0.7870
+SEMUA,RealWaste,300,0.5700

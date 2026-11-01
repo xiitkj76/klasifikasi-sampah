@@ -1,0 +1,36 @@
+label_asli,diprediksi_sebagai,jumlah,persen_dari_kelas_asli
+Miscellaneous Trash,Textile Trash,7,14.0%
+paper,cardboard,7,10.0%
+Textile Trash,Miscellaneous Trash,7,21.2%
+cardboard,paper,5,9.8%
+glass,metal,5,8.3%
+metal,glass,5,8.6%
+Miscellaneous Trash,Plastic,5,10.0%
+Food Organics,Vegetation,4,9.5%
+Miscellaneous Trash,Food Organics,4,8.0%
+paper,trash,4,5.7%
+metal,Plastic,3,5.2%
+cardboard,Textile Trash,2,3.9%
+cardboard,trash,2,3.9%
+glass,Miscellaneous Trash,2,3.3%
+glass,paper,2,3.3%
+metal,trash,2,3.4%
+paper,glass,2,2.9%
+Plastic,glass,2,2.2%
+Plastic,metal,2,2.2%
+trash,paper,2,13.3%
+Vegetation,Food Organics,2,4.5%
+cardboard,glass,1,2.0%
+cardboard,Plastic,1,2.0%
+cardboard,Vegetation,1,2.0%
+Food Organics,metal,1,2.4%
+glass,Plastic,1,1.7%
+Miscellaneous Trash,cardboard,1,2.0%
+Miscellaneous Trash,paper,1,2.0%
+paper,Food Organics,1,1.4%
+Plastic,paper,1,1.1%
+Plastic,Textile Trash,1,1.1%
+Textile Trash,Food Organics,1,3.0%
+trash,cardboard,1,6.7%
+trash,metal,1,6.7%
+Vegetation,Miscellaneous Trash,1,2.3%

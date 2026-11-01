@@ -1,0 +1,13 @@
+DIAGNOSIS KURVA TRAINING
+============================================================
+Jumlah epoch berjalan        : 26
+Epoch terbaik (val_loss min) : 18
+Akurasi train / val (terbaik): 0.6088 / 0.5729
+Selisih (gap) train - val    : 0.0359
+Std val_acc 10 epoch terakhir: 0.0669
+val_loss tertinggi           : 6.8722 (epoch 7)
+Penurunan val_acc > 15 poin  : 3 kali
+
+Interpretasi:
+- Validasi TIDAK STABIL: val_acc naik-turun tajam antar epoch, sedangkan train_acc naik mulus. Pola ini khas statistik BatchNormalization (moving mean/variance) yang belum stabil karena learning rate terlalu besar untuk model yang dilatih dari nol.
+- Akurasi TRAIN sendiri hanya 0.68: model juga UNDERFITTING. Kapasitas/fitur yang dipelajari dari nol pada ~4.000 gambar belum cukup; transfer learning dari ImageNet adalah perbaikan paling berdampak.

@@ -1,0 +1,33 @@
+{
+  "nama": "E0_baseline",
+  "deskripsi": "CNN 4 blok dari nol (model Anggota 3)",
+  "test_accuracy": 0.5542635658914729,
+  "test_top3_accuracy": 0.8817829457364341,
+  "test_cross_entropy": 1.1993393898010254,
+  "test_macro_precision": 0.5828935058250313,
+  "test_macro_recall": 0.5666437778670979,
+  "test_macro_f1": 0.541113150627828,
+  "test_weighted_f1": 0.5557896305317255,
+  "val_accuracy": 0.5728542914171657,
+  "f1_per_kelas": {
+    "cardboard": 0.8080808080808081,
+    "Food Organics": 0.4878048780487805,
+    "glass": 0.6194690265486725,
+    "metal": 0.4819277108433735,
+    "Miscellaneous Trash": 0.4121212121212121,
+    "paper": 0.6911764705882353,
+    "Plastic": 0.45751633986928103,
+    "Textile Trash": 0.3333333333333333,
+    "trash": 0.40816326530612246,
+    "Vegetation": 0.7115384615384616
+  },
+  "total_params": 895594,
+  "epochs_run": 26,
+  "best_epoch": 18,
+  "train_acc_at_best": 0.6088031530380249,
+  "val_acc_at_best": 0.5728542804718018,
+  "gap_acc_at_best": 0.035948872566223145,
+  "val_acc_std_last10": 0.06686507770942797,
+  "val_loss_max": 6.872193336486816,
+  "jumlah_lonjakan_val": 3
+}

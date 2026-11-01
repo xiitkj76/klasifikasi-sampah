@@ -1,0 +1,12 @@
+DIAGNOSIS KURVA TRAINING
+============================================================
+Jumlah epoch berjalan        : 15
+Epoch terbaik (val_loss min) : 14
+Akurasi train / val (terbaik): 0.9773 / 0.8603
+Selisih (gap) train - val    : 0.1170
+Std val_acc 10 epoch terakhir: 0.0053
+val_loss tertinggi           : 0.6978 (epoch 1)
+Penurunan val_acc > 15 poin  : 0 kali
+
+Interpretasi:
+- Ada gap train-val yang cukup besar -> indikasi overfitting ringan; augmentasi/regularisasi perlu diperkuat.
