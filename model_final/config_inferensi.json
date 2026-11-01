@@ -1,0 +1,27 @@
+{
+  "file_model": "model_sampah.keras",
+  "sumber_model": "A3_reg_saja",
+  "class_names": [
+    "cardboard",
+    "Food Organics",
+    "glass",
+    "metal",
+    "Miscellaneous Trash",
+    "paper",
+    "Plastic",
+    "Textile Trash",
+    "trash",
+    "Vegetation"
+  ],
+  "image_size": [
+    224,
+    224
+  ],
+  "ambang_keyakinan": 0.55,
+  "ambang_ood": 0.5768174529075623,
+  "metrik": {
+    "test_accuracy": 0.8333333333333334,
+    "test_macro_f1": 0.8174551108205728,
+    "val_accuracy": 0.8622754491017964
+  }
+}

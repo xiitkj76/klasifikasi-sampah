@@ -1,0 +1,9 @@
+# file besar yang tidak diunggah ke GitHub
+datasett/
+datasett_preprocessed/*
+!datasett_preprocessed/BACA_SAYA.txt
+*.zip
+*.h5
+hasil_eksperimen/_uji_*/
+__pycache__/
+.ipynb_checkpoints/

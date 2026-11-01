@@ -1,0 +1,8 @@
+# Versi yang dipakai saat eksperimen di Google Colab: Keras 3.13.2 (TensorFlow 2.x)
+tensorflow>=2.16
+numpy
+matplotlib
+pillow
+scikit-learn
+pytest
+streamlit

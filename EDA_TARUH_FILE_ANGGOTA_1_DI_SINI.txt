@@ -1,0 +1,2 @@
+Folder ini untuk file eksplorasi data milik Anggota 1 (misalnya EDA.ipynb atau EDA.py).
+Setelah file dimasukkan, hapus file .txt ini.
