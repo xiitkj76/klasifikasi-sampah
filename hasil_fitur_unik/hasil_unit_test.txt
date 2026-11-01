@@ -1,0 +1,41 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.16, pytest-8.4.2, pluggy-1.7.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /content/proj
+plugins: platformdirs-4.13.5, langsmith-0.14.12, anyio-4.15.1, typeguard-4.6.0
+collecting ... collected 22 items
+
+test_sampah.py::test_split_tidak_ada_kebocoran PASSED                    [  4%]
+test_sampah.py::test_split_reprodusibel PASSED                           [  9%]
+test_sampah.py::test_split_sama_dengan_baseline PASSED                   [ 13%]
+test_sampah.py::test_proporsi_split_80_10_10 PASSED                      [ 18%]
+test_sampah.py::test_preprocess_bentuk_dan_rentang PASSED                [ 22%]
+test_sampah.py::test_preprocess_menerima_berbagai_input PASSED           [ 27%]
+test_sampah.py::test_preprocess_identik_dengan_training PASSED           [ 31%]
+test_sampah.py::test_class_weight_kelas_minoritas_terbesar PASSED        [ 36%]
+test_sampah.py::test_tentukan_status[0.9-0.8-yakin] PASSED               [ 40%]
+test_sampah.py::test_tentukan_status[0.4-0.8-tidak_yakin] PASSED         [ 45%]
+test_sampah.py::test_tentukan_status[0.9-0.1-di_luar_domain] PASSED      [ 50%]
+test_sampah.py::test_tentukan_status[0.4-0.1-di_luar_domain] PASSED      [ 54%]
+test_sampah.py::test_tentukan_status[0.7-0.5-yakin] PASSED               [ 59%]
+test_sampah.py::test_tentukan_status_tanpa_filter_ood PASSED             [ 63%]
+test_sampah.py::test_skor_kemiripan_dan_centroid PASSED                  [ 68%]
+test_sampah.py::test_energi_tepi PASSED                                  [ 72%]
+test_sampah.py::test_config_inferensi_lengkap PASSED                     [ 77%]
+test_sampah.py::test_output_prediksi_valid PASSED                        [ 81%]
+test_sampah.py::test_prediksi_deterministik PASSED                       [ 86%]
+test_sampah.py::test_gradcam_bentuk_dan_rentang PASSED                   [ 90%]
+test_sampah.py::test_akurasi_model_final_sesuai_laporan PASSED           [ 95%]
+test_sampah.py::test_tflite_konsisten_dengan_keras PASSED                [100%]
+
+=============================== warnings summary ===============================
+test_sampah.py::test_tflite_konsisten_dengan_keras
+  /usr/local/lib/python3.13/dist-packages/tensorflow/lite/python/interpreter.py:457: UserWarning:     Warning: tf.lite.Interpreter is deprecated and is scheduled for deletion in
+      TF 2.20. Please use the LiteRT interpreter from the ai_edge_litert package.
+      See the [migration guide](https://ai.google.dev/edge/litert/migration)
+      for details.
+      
+    warnings.warn(_INTERPRETER_DELETION_WARNING)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================== 22 passed, 1 warning in 15.19s ========================

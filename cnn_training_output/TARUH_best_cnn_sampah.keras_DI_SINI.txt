@@ -1,0 +1,2 @@
+Salin file best_cnn_sampah.keras (model baseline Anggota 3) ke folder ini,
+lalu hapus file .txt ini.

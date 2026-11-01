@@ -1,0 +1,17 @@
+{
+  "test_loss": 1.2970962524414062,
+  "test_accuracy": 0.5542635917663574,
+  "class_names": [
+    "cardboard",
+    "Food Organics",
+    "glass",
+    "metal",
+    "Miscellaneous Trash",
+    "paper",
+    "Plastic",
+    "Textile Trash",
+    "trash",
+    "Vegetation"
+  ],
+  "best_model": "D:\\Sem7\\deep learning\\Preprocessing\\cnn_training_output\\best_cnn_sampah.keras"
+}

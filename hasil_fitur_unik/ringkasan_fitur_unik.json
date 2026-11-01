@@ -1,0 +1,101 @@
+{
+  "F3_confidence_threshold": {
+    "ambang_terpilih": 0.55,
+    "alasan": "ambang terkecil dengan akurasi validation >= 95% dan cakupan >= 50%",
+    "akurasi_test_tanpa_ambang": 0.8333333333333334,
+    "akurasi_test_diterima": 0.8992628992628993,
+    "cakupan_test": 0.7887596899224806,
+    "jumlah_ditolak_test": 109,
+    "salah_yang_tertolak": 45,
+    "total_salah": 86,
+    "keyakinan_maks_test": 0.9956766963005066
+  },
+  "F4_deteksi_luar_domain": {
+    "metode": "kemiripan kosinus fitur GAP terhadap centroid kelas (data training)",
+    "data_ood": "600 gambar (CIFAR-10)",
+    "ambang_ood": 0.5768174529075623,
+    "sampah_test_lolos": 0.939922480620155,
+    "ood_tertolak": 0.96,
+    "auroc_kemiripan_kosinus": 0.9861272609819121,
+    "auroc_keyakinan_softmax": 0.8760723514211887,
+    "ood_tanpa_filter_dijawab_yakin": 0.195
+  },
+  "F1_gradcam": {
+    "energi_tepi_rata2": {
+      "Baseline": 0.45160525621272146,
+      "Model final": 0.2609463314928518
+    },
+    "nilai_acuan_merata": 0.51
+  },
+  "F2_class_weight": {
+    "bobot_kelas": {
+      "cardboard": 1.016,
+      "Food Organics": 1.233,
+      "glass": 0.864,
+      "metal": 0.893,
+      "Miscellaneous Trash": 1.021,
+      "paper": 0.729,
+      "Plastic": 0.549,
+      "Textile Trash": 1.592,
+      "trash": 3.71,
+      "Vegetation": 1.165
+    },
+    "kelas_minoritas": [
+      "trash",
+      "Textile Trash",
+      "Food Organics"
+    ],
+    "Dengan class weight (A3)": {
+      "akurasi": 0.8333333333333334,
+      "macro_f1": 0.8174551108205728,
+      "recall_minoritas": {
+        "trash": 1.0,
+        "Textile Trash": 0.7575757575757576,
+        "Food Organics": 0.8809523809523809
+      }
+    },
+    "Tanpa class weight (A5)": {
+      "akurasi": 0.8255813953488372,
+      "macro_f1": 0.802899339061147,
+      "recall_minoritas": {
+        "trash": 0.7333333333333333,
+        "Textile Trash": 0.7575757575757576,
+        "Food Organics": 0.8809523809523809
+      }
+    }
+  },
+  "F5_tflite": [
+    {
+      "format": "Keras (.keras)",
+      "ukuran_mb": 9.777272,
+      "akurasi_test": 0.8333333333333334,
+      "kesesuaian_dengan_keras": 1.0,
+      "latensi_cpu_ms": 255.26904426666687,
+      "file": "model_sampah.keras"
+    },
+    {
+      "format": "TFLite float32",
+      "ukuran_mb": 8.938432,
+      "akurasi_test": 0.8333333333333334,
+      "kesesuaian_dengan_keras": 1.0,
+      "latensi_cpu_ms": 8.91997150000255,
+      "file": "model_sampah_float32.tflite"
+    },
+    {
+      "format": "TFLite float16",
+      "ukuran_mb": 4.533084,
+      "akurasi_test": 0.8333333333333334,
+      "kesesuaian_dengan_keras": 1.0,
+      "latensi_cpu_ms": 9.185564299999289,
+      "file": "model_sampah_float16.tflite"
+    },
+    {
+      "format": "TFLite dynamic-range int8",
+      "ukuran_mb": 2.542184,
+      "akurasi_test": 0.8255813953488372,
+      "kesesuaian_dengan_keras": 0.9748062015503876,
+      "latensi_cpu_ms": 22.281508099998366,
+      "file": "model_sampah_dynamic_range.tflite"
+    }
+  ]
+}
