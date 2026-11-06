@@ -97,5 +97,5 @@ Detail: `hasil_fitur_unik/ringkasan_fitur_unik.md` dan grafik `F1`–`F5` di fol
 | | Tautan |
 |---|---|
 | Source code (GitHub) | https://github.com/xiitkj76/klasifikasi-sampah |
-| Video demo & tahapan deployment 
+| Video demo & tahapan deployment | https://drive.google.com/file/d/1JjXvOgHfPmKgOqRLOlybxgkMmlKMW9EH/view?usp=sharing |
 | Aplikasi yang sudah di-deploy | https://klasifikasi-sampah-etherealifb.streamlit.app |
